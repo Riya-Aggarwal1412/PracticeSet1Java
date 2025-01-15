@@ -1,0 +1,17 @@
+**Calculate CGPA**
+
+import java.util.Scanner;
+public class CalculateCgpa {
+    public static void main (String [] args){
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter the marks of 3 subjects for calculate the CGPA");
+        System.out.print("Maths:");
+        float maths = sc.nextFloat();
+        System.out.print("English:");
+        float english = sc.nextFloat();
+        System.out.print("Hindi:");
+        float hindi = sc.nextFloat();
+        float sum = maths+english+hindi;
+        System.out.println("CGPA:"+sum/30);
+    }
+}
