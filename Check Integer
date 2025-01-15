@@ -1,0 +1,10 @@
+**Check it is Integer or not**
+
+import java.util.Scanner;
+public class CheckInt {
+    public static void main (String [] args){
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a number or character to check it is interger or not.");
+        System.out.println(sc.hasNextInt());
+    }
+}
