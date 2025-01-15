@@ -1,0 +1,17 @@
+**Add 3 Numbers**
+
+import java.util.Scanner;
+public class PracticeSet {
+    public static void main (String [] args){
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter the random 3 numbers");
+        System.out.print("A:");
+        int a = sc.nextInt();
+        System.out.print("B:");
+        int b = sc.nextInt();
+        System.out.print("C:");
+        int c = sc.nextInt();
+        int sum = a+b+c;
+        System.out.println("Sum:"+sum);
+    }
+}
