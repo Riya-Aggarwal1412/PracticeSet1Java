@@ -1,0 +1,13 @@
+**Kilometers to Miles**
+
+import java.util.Scanner;
+public class KmToM {
+    public static void main (String [] args){
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter the number for conversion kilometers to miles.");
+        System.out.print("Kilometer:");
+        float kilometers = sc.nextFloat();
+        float miles = 1.6f;
+        System.out.println("Their are "+kilometers/miles+" miles are in "+kilometers+" km.");
+    }
+}
